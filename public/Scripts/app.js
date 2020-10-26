@@ -1,3 +1,7 @@
+/*app.js
+Domingo Novello
+301017413
+October 9, 2020 */
 // IIFE -- Immediately Invoked Function Expression
 (function(){
 
