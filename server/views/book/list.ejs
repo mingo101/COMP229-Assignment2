@@ -1,7 +1,7 @@
 <%- include ../partials/header.ejs %>
 
 <%- include ../partials/main_nav.ejs %>
-  
+<!--Domingo Novello - 301017413 - October 26, 2020 -->  
 
   <!-- Main Content -->
   <main class="container">
@@ -18,17 +18,17 @@
                 <!-- Header Row-->
                 <tr class="d-flex">
                     <% if(typeof displayName == 'string' && displayName) { %>
-                        <th class="text-center col-2">Name</th>
-                        <th class="text-center col-2">Phone #</th>
-                        <th class="text-center col-3">Email</th>
-                        <th class="text-center col-3">Notes</th>
-                        <th class="text-center col-1"></th>
-                        <th class="text-center col-1"></th>
+                        <th class="th text-center col-2">Name</th>
+                        <th class="th text-center col-2">Phone #</th>
+                        <th class="th text-center col-3">Email</th>
+                        <th class="th text-center col-3">Notes</th>
+                        <th class="th text-center col-1"></th>
+                        <th class="th text-center col-1"></th>
                     <% } else { %>
-                        <th class="text-center col-2">Name</th>
-                        <th class="text-center col-2">Phone #</th>
-                        <th class="text-center col-4">Email</th>
-                        <th class="text-center col-4">Notes</th>
+                        <th class="th text-center col-2">Name</th>
+                        <th class="th text-center col-2">Phone #</th>
+                        <th class="th text-center col-4">Email</th>
+                        <th class="th text-center col-4">Notes</th>
                     <% } %>
                 </tr>
 

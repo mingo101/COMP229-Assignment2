@@ -1,3 +1,4 @@
+//<!--Domingo Novello - 301017413 - October 26, 2020 -->
 let mongoose = require('mongoose');
 
 // create a model class

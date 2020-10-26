@@ -1,3 +1,4 @@
+//<!--Domingo Novello - 301017413 - October 26, 2020 -->
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
@@ -20,7 +21,7 @@ function requireAuth(req, res, next)
 }
 
 /* GET Route for the Book List page - READ Operation */
-router.get('/', bookController.displayBookList);
+router.get('/', requireAuth, bookController.displayBookList);
 
 /* GET Route for displaying the Add page - CREATE Operation */
 router.get('/add', requireAuth, bookController.displayAddPage);

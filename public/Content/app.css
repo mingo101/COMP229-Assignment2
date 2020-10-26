@@ -74,3 +74,17 @@ October 9, 2020 */
 .form-style input[type="button"]:hover{
 	background: #2EBC99;
 }
+/* style for contact list table */
+.table{
+	border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.th{
+	background-color: #037ff7;
+    color: #ffffff;
+    text-align: left;
+}
