@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-//Domingo Novello - 301017413 - October 9, 2020
+
 /**
  * Module dependencies.
  */
 
-var app = require('./config/app');
-var debug = require('debug')('assignment1:server');
+var app = require('./server/config/app');
+var debug = require('debug')('week-4:server');
 var http = require('http');
 
 /**
