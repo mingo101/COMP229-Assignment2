@@ -1,9 +1,13 @@
 {
-  "name": "comp229-f2020-week6",
+  "name": "assignment 2",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.18.3",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
